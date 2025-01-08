@@ -40,15 +40,15 @@ La aplicación presenta las siguientes opciones para el usuario:
    - Crea una base de datos PostgreSQL.
    - Configura las credenciales en el archivo `application.properties` o `application.yml` en el directorio `src/main/resources`.
      ```properties
-     spring.datasource.url=jdbc:postgresql://localhost/literalura
-     spring.datasource.username=tu_usuario
-     spring.datasource.password=tu_contraseña
-     spring.datasource.driver-class-name=org.postgresql.Driver
-     hibernate.dialect=org.hibernate.dialect.HSQLDialect
-     spring.jpa.hibernate.ddl-auto=update
-      spring.main.allow-circular-references=true
-       spring.jpa.show-sql=true
-       spring.jpa.format-sql=true
+         spring.datasource.url=jdbc:postgresql://localhost/literalura
+         spring.datasource.username=tu_usuario
+         spring.datasource.password=tu_contraseña
+         spring.datasource.driver-class-name=org.postgresql.Driver
+         hibernate.dialect=org.hibernate.dialect.HSQLDialect
+         spring.jpa.hibernate.ddl-auto=update
+         spring.main.allow-circular-references=true
+         spring.jpa.show-sql=true
+         spring.jpa.format-sql=true
      
      ```
 
